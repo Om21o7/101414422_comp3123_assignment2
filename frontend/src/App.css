@@ -1,0 +1,178 @@
+
+nav {
+  background-color:navy;
+  color: white;
+  padding: 10px;
+
+}
+
+nav ul {
+  list-style: none;
+  display: flex; 
+  justify-content: space-around; 
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a, nav ul li button {
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  text-align: center;
+}
+
+nav ul li a:hover, nav ul li button:hover {
+  background-color: #555;
+  border-radius: 4px; 
+}
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+nav {
+  background-color: #1f78d1;
+  color: white;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h2 {
+  margin: 0;
+}
+
+nav button {
+  background-color: #fff;
+  color: #1f78d1;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+nav button:hover {
+  background-color: #f2f2f2;
+}
+
+table {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table th,
+table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background-color: #1f78d1;
+  color: white;
+}
+
+table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+table tr:hover {
+  background-color: #f1f1f1;
+}
+
+
+button {
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.update {
+  background-color: #4caf50;
+  color: white;
+}
+
+button.update:hover {
+  background-color: #45a049;
+}
+
+button.delete {
+  background-color: #f44336;
+  color: white;
+}
+
+button.delete:hover {
+  background-color: #d32f2f;
+}
+
+button.view {
+  background-color: #008cba;
+  color: white;
+}
+
+button.view:hover {
+  background-color: #007bb5;
+}
+
+form {
+  width: 50%;
+  margin: 20px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+form button {
+  margin-right: 10px;
+}
+
+button.save {
+  background-color: #4caf50;
+  color: white;
+}
+
+button.save:hover {
+  background-color: #45a049;
+}
+
+button.cancel {
+  background-color: #f44336;
+  color: white;
+}
+
+button.cancel:hover {
+  background-color: #d32f2f;
+}

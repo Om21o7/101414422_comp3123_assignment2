@@ -1,0 +1,16 @@
+/* Example styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 10px;
+  }
+  
+  form input, form button {
+    margin: 10px;
+    padding: 10px;
+  }
+  
